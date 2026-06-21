@@ -61,7 +61,7 @@ function Navbar() {
         <div className="flex items-center justify-between h-15">
           {/* Logo */}
        <Link to="/" className="flex flex-col items-center">
-  <div className="text-[43px] font-bold leading-[0.8] text-[#8069A4]">
+  <div className="text-[40px] font-bold leading-[0.8] text-[#8069A4]">
     U
   </div>
 
