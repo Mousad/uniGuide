@@ -58,18 +58,16 @@ function Navbar() {
   return (
     <nav className={`sticky top-0 z-50 bg-white border-b border-border shadow-sm`} dir="rtl">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
-        <div className="flex items-center justify-between h-14">
+        <div className="flex items-center justify-between h-15">
           {/* Logo */}
-        <Link to="/" className="flex flex-col items-center ">
-  {/* حرف U فوق */}
-<div className="text-[43px] font-bold leading-none text-[#8069A4]">U</div>
-  {/* الاسم */}
-  <div className="text-sm font-semibold leading-tight text-[#8069A4]">
-    UniGuide
+       <Link to="/" className="flex flex-col items-center">
+  <div className="text-[43px] font-bold leading-[0.8] text-[#8069A4]">
+    U
   </div>
 
-  {/* (اختياري) وصف صغير */}
- 
+  <div className="text-sm font-semibold leading-none text-[#8069A4] -mt-1">
+    UniGuide
+  </div>
 </Link>
 
           {/* Desktop nav */}
